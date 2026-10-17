@@ -8,7 +8,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from ceskyhlas.auth import TokenAuth, authorized, check_config, token_required  # noqa: E402
 
-TOKEN = "test-token-not-a-secret"
+TOKEN = "x" * 20   # zkušební hodnota, žádné tajemství
 
 
 def test_loopback_needs_no_token():

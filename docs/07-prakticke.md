@@ -19,7 +19,7 @@ Po úklidu se u nás vhdx zmenšil ze 178 GB přes 97 a 68 GB na 44 GB. Další 
 - Hlídejte volné místo na všech dotčených discích (Linux /, disk s daty, C:) a pod ~40 GB nespouštějte
   dlouhé běhy. Checkpointy mají stovky MB až GB a ukládají se často.
 - Během kompaktace je vhdx zamčený a WSL nenastartuje („sharing violation“). Počkejte, až diskpart doběhne.
-- Data, na která se jen čte, mohou zůstat na Windows disku (`/mnt/e/...`). Trénink a cache patří na ext4
+- Data, na která se jen čte, mohou zůstat na Windows disku (`/mnt/<disk>/...`). Trénink a cache patří na ext4
   uvnitř WSL, přes `/mnt` je pomalý přístup k malým souborům.
 
 ## Jedna úloha na GPU
