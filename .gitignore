@@ -1,0 +1,43 @@
+# Žádná data mluvčího, zvuk ani modely do gitu
+data/
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.opus
+*.m4a
+*.aac
+*.webm
+*.mp4
+*.mkv
+*.pcm
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.nemo
+*.bin
+*.npy
+*.npz
+*.jsonl
+*.csv
+*.zip
+*.tar
+*.tar.gz
+
+# Tajemství
+.env
+.env.*
+*.token
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv*/
+*.egg-info/
+*.log

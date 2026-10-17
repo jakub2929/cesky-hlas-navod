@@ -1,0 +1,13 @@
+# analýza dat a hodnocení (yt_ingest, ctc_filter, asr_wer, phoneme_metrics, phrase_cache rank, testy)
+# testované verze; torch nainstalujte podle své GPU / CUDA (https://pytorch.org)
+torch==2.14.1
+nemo-toolkit[asr]==2.7.3
+transformers==4.57.6
+huggingface_hub==0.36.2
+numpy==2.3.5
+scipy==1.18.1
+soundfile==0.14.0
+soxr==1.1.0
+jiwer==3.1.0
+pydantic==2.14.0
+pytest==9.1.1
